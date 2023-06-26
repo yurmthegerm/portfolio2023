@@ -9,7 +9,7 @@
   <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-  <nav class="sticky-top navbar navbar-expand-lg">
+  <nav class="sticky-top navbar navbar-expand-lg py-3 py-lg-4" style="background-color: #d4d7db;">
     <div class="container-fluid">
         <a class="navbar-brand ps-5" style="font-size: 35px;" href="#">Kristina Kang</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,17 +18,97 @@
         <div class="collapse navbar-collapse justify-content-end pe-5" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page"><h3>About</h3></a>
+                    <a class="nav-link active" aria-current="page" href="#scrollspyAbout"><h3>About</h3></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link"><h3>Projects</h3></a>
+                    <a class="nav-link" href="#scrollspyProjects"><h3>Projects</h3></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link"><h3>Contact</h3></a>
+                    <a class="nav-link" href="#scrollspyContact"><h3>Contact</h3></a>
                 </li>
             </ul>
         </div>
     </div>
   </nav>
+
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example container" tabindex="0">
+
+    <div class="container">
+        <p id="scrollspyAbout" class="pt-5 pb-5"></p>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 text-center" style="padding-top: 100px;">
+                <img class="rounded-circle" src="images/head.jpeg" alt="profile">
+                <h1 class="pt-5" style="padding-bottom: 30px;">Kristina Kang</h1>
+            </div>
+            <div class="col-md-4"></div>
+            <div class="col-md-1"></div>
+            <div class="col-md-10 text-center pt-5">
+                <p class="fs-4">I am a graduand in computer science with a passion for full-stack development.
+                    Fluent in both Korean and English, I possess a diverse background and a meticulous attention to detail. 
+                    My eagerness to learn and collaborative nature make me an ideal candidate for full-stack developer positions. 
+                    I am driven to contribute to innovative projects, leveraging my skills and knowledge to create robust and user-friendly web applications. 
+                    I am excited to join a dynamic team where I can grow professionally and make a meaningful impact in the field of full-stack development.
+                </p>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+      </div>
+
+    <p id="scrollspyProjects" class="pt-5 pb-5"></p>
+    <h2 class="pb-5 pt-5 text-center">Projects</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 text-center d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/head.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/head.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/head.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <p id="scrollspyContact" class="pt-5 pb-5"></p>
+    <h2 class="pb-5 pt-5 text-center">Contact</h2>
+    <div class="row">
+        <p>d</p>
+        <p>d</p>
+        <p>d</p>
+        <p>d</p>
+        <p>d</p>
+        <p>d</p>
+        <p>d</p>
+        <p>d</p>
+        <p>d</p>
+        <p>d</p>
+        <p>d</p>
+        <p>d</p>
+        <p>d</p>
+    </div>
+  </div>
 </body>
 </html>
