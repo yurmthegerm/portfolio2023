@@ -1,1 +1,18 @@
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+}
 
+body {
+    font-family: 'Lobster', cursive;
+    font-family: 'Nunito', sans-serif;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+}
+
+html {
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
